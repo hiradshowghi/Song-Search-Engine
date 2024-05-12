@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyTunes</title>
+    <style>
+        
+    </style>
+</head>
+<body>
+    <div id="playlist_area">
+        <h1>Playlist</h1>
+        <table id="playlist_table">
+            <tr>
+                <th>Actions</th>
+                <th>Title</th>
+                <th>Artist</th>
+                <th>Artwork</th>
+            </tr>
+            
+        </table>
+    </div>
+
+    <div id="input_area">
+        <label for="songTitleTextField">Enter Song Title:</label>
+        <input type="text" id="songTitleTextField">
+        <button id="submit_button">Submit</button>
+    </div>
+
+    <div id="search_results_area">
+        <h1 id="search_results_heading">Songs matching: </h1>
+        <table id="search_results_table">
+            <tr>
+                <th>Action</th>
+                <th>Title</th>
+                <th>Artist</th>
+                <th>Artwork</th>
+            </tr>
+            
+        </table>
+    </div>
+
+    <script>
+        <script src="buttonHandlers.js"></script>
+        <script src="keyAndButtonListeners.js"></script>
+        <script src="main.js"></script>
+    </script>
+</body>
+</html>
